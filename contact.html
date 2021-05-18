@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+  <meta name="description" content="Novanop Portofolio Website">
+  <meta name="author" content="Nova Nurhamdani">
+
+  <title>Novanop Portofolio Website - Contact</title>
+
+  <!-- CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/animsition.min.css" rel="stylesheet">
+  <link href="css/socicon.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="favicon/site.webmanifest"> -->
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body class="light-mode">
+  <header id="header" class="header header-fixed">
+    <div class="container-fluid clearfix">
+      <div class="brand">
+        <a href="index.html#Home">
+          <div class="img-logo"></div>
+        </a>
+      </div>
+
+      <button class="nav-toggle-btn a-nav-toggle">
+        <span class="nav-toggle-title">Menu</span>
+        <span class="nav-toggle nav-toggle-sm">
+          <span class="stick stick-1"></span>
+          <span class="stick stick-2"></span>
+          <span class="stick stick-3"></span>
+        </span>
+      </button>
+    </div>
+
+    <div class="hide-menu a-nav-toggle"></div>
+
+    <div class="menu">
+      <div class="menu-main" id="accordion">
+        <ul>
+          <li><a href="index.html" class="animsition-link" data-animsition-out-class="fade-out"
+              data-text="Home">Home</a></li>
+          <li><a href="index.html#Services" class="animsition-link" data-animsition-out-class="fade-out"
+              data-text="Service Offers">Service Offers</a></li>
+          <li><a href="index.html#Projects" class="animsition-link" data-animsition-out-class="fade-out"
+              data-text="Portofolio">Portofolio</a></li>
+          <li><a href="contact.html" class="animsition-link" data-animsition-out-class="fade-out"
+              data-text="Contact">Contact</a></li>
+        </ul>
+      </div> <!-- End of Menu Main -->
+
+      <div class="menu-footer">
+        <ul class="social social-rounded">
+          <li><a href="https://www.linkedin.com/in/nova-nurhamdani/" target="_blank"><i
+                class="socicon-linkedin"></i></a></li>
+          <li><a href="https://github.com/novanopstudio" target="_blank"><i class="socicon-github"></i></a></li>
+        </ul>
+        <div class="menu-copyright">&copy; 2020 <strong>NOVANOP</strong>. All Rights Reserved.</div>
+      </div> <!-- End of menu footer div -->
+
+    </div> <!-- End of Menu div -->
+  </header> <!-- End of Header -->
+
+  <div class="section">
+    <div class="section-item">
+      <div class="container">
+        <form action="" method="POST" class="text-left" id="my-form">
+          <h3 class="fs36 mb50">Get In Touch</h3>
+          <div class="row">
+            <div class="col-sm-4 mb30">
+              <label class="label-custom">Name</label>
+              <input name="name" id="name" type="text" class="form-control form-control-custom"
+                placeholder="Your Name" />
+              <div class="error-hint hidden"> Your name is required</div>
+            </div>
+            <div class="col-sm-4 mb30">
+              <label class="label-custom">Email</label>
+              <input name="_replyto" id="email" type="text" class="form-control form-control-custom"
+                placeholder="Your Email Address" />
+              <div class="error-hint hidden"> Please enter valid email</div>
+            </div>
+            <div class="col-sm-4 mb30">
+              <label class="label-custom">Subject</label>
+              <input name="subject" id="subject" type="text" class="form-control form-control-custom"
+                placeholder="Title of Email" />
+              <div class="error-hint hidden"> Your subject is required</div>
+            </div>
+            <div class="col-sm-12 mb30">
+              <label class="label-custom">message</label>
+              <textarea name="message" id="message" rows="9" cols="30" class="form-control form-control-custom"
+                placeholder="Write your message here"></textarea>
+              <div class="error-hint hidden"> Your message is required</div>
+            </div>
+          </div>
+          <div class="mb30 text-center">
+            <button id="submit-button" type="submit" class="btn btn-primary">
+              <span class="button-text">Send Message</span> 
+            </button>
+          </div>
+      </div>
+      </form>
+      <div class="thank-you hidden"> Thank You. We'll be in touch
+        <div>
+          <a class="btn btn-primary mt-4 mr-4" href="index.html#Home">Back to Home</a>
+          <a class="btn btn-primary mt-4 mr-4" href="index.html#Projects">Portofolio Page</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("user_HOoCGdKLDIqEc9oyAsjWD");
+    })();
+  </script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/animsition.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.viewport.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
