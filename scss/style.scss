@@ -581,6 +581,7 @@ input:focus {
         align-items: flex-start;
         row-gap: 10px;
     }
+
 }
 
 .hide-menu {
@@ -1011,14 +1012,13 @@ input:focus {
     }
 
     .slide3 .slide-bg > .inside {
-        background-image: url("../img/bg-nvn-scr.jpg");
+        background-image: url("../img/bg-nvn-porto.jpg");
     }
 
     .slide2 .slide-descr {
         line-height: 1.875;
       }
 }
-
 
 
 .slide-container .container{
@@ -1428,7 +1428,7 @@ input:focus {
 }
 
 .project-list-listing a:hover .project-listing-photo {
-  transform: scale(1.08);
+  transform: scale(1.02);
 }
 
 .project-listing-photo {
@@ -2080,7 +2080,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: 30px 30px;
     align-content: center;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2092,7 +2092,7 @@ input:focus {
     background-image: url(../img/icon/css3.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2104,7 +2104,7 @@ input:focus {
     background-image: url(../img/icon/javascript.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2116,7 +2116,7 @@ input:focus {
     background-image: url(../img/icon/react.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2128,7 +2128,7 @@ input:focus {
     background-image: url(../img/icon/nodejs.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2140,7 +2140,7 @@ input:focus {
     background-image: url(../img/icon/figma.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2152,7 +2152,7 @@ input:focus {
     background-image: url(../img/icon/adobe.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2164,7 +2164,7 @@ input:focus {
     background-image: url(../img/icon/ai.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2176,7 +2176,7 @@ input:focus {
     background-image: url(../img/icon/psd.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
@@ -2184,15 +2184,63 @@ input:focus {
     }
 }
 
-.iconset-blender{
-    background-image: url(../img/icon/blender.svg);
+.iconset-next{
+    background-image: url(../img/icon/next-js.svg);
     background-repeat: no-repeat;
     background-size: 30px 30px;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
 
     &:hover,
     &:focus {
-        background-image: url(../img/icon/blender-grey.svg);
+        background-image: url(../img/icon/next-js-grey.svg);
+    }
+}
+
+.iconset-sass{
+    background-image: url(../img/icon/sass.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    transition: all 0.2s ease;
+
+    &:hover,
+    &:focus {
+        background-image: url(../img/icon/sass-grey.svg);
+    }
+}
+
+.iconset-github{
+    background-image: url(../img/icon/github.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    transition: all 0.2s ease;
+
+    &:hover,
+    &:focus {
+        background-image: url(../img/icon/github-grey.svg);
+    }
+}
+
+.iconset-wordpress{
+    background-image: url(../img/icon/wordpress.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    transition: all 0.2s ease;
+
+    &:hover,
+    &:focus {
+        background-image: url(../img/icon/wordpress-grey.svg);
+    }
+}
+
+.iconset-redux{
+    background-image: url(../img/icon/redux.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    transition: all 0.2s ease;
+
+    &:hover,
+    &:focus {
+        background-image: url(../img/icon/redux-grey.svg);
     }
 }
         
