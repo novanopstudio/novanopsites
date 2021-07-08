@@ -1181,11 +1181,22 @@ input:focus {
 }
 
 .home-horizontal .slide3 .slide-bg > .inside {
-  background-image: url("../img/bg-nvn-porto.jpg");
+  background-image: url("../img/bg-nvn-scr.jpg");
 }
 
 .home-horizontal .slide2 .slide-descr {
   line-height: 1.875;
+}
+
+.cendekia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 210px;
+  height: auto;
+  left: 1.21em;
+  top: 32em;
+  position: absolute;
 }
 
 .slide-container .container {
@@ -2155,11 +2166,30 @@ input:focus {
   html {
     font-size: 13px;
   }
+  .cendekia {
+    width: 500px;
+    left: 55%;
+    top: 20%;
+    overflow-y: hidden;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 992px) {
   html {
     font-size: 14px;
+  }
+  .cendekia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 700px;
+    height: auto;
+    position: absolute;
+    left: 52%;
+    top: 15%;
+    overflow-y: hidden;
+    cursor: pointer;
   }
 }
 
