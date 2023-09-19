@@ -1,297 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset=" utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
-    <meta name="description" content="Novanop Portofolio Website">
-    <meta name="author" content="Nova Nurhamdani">
+  <head>
+    <meta charset=" utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"
+    />
+    <meta name="description" content="Novanop Portofolio Website" />
+    <meta name="author" content="Nova Nurhamdani" />
 
     <title>Novanop Portofolio Website</title>
 
     <!-- CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/animsition.min.css" rel="stylesheet">
-    <link href="css/socicon.css" rel="stylesheet">
-    <link href="css/ionicons.min.css" rel="stylesheet">
-    <link href="css/jquery.pagepiling.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/animsition.min.css" rel="stylesheet" />
+    <link href="css/socicon.css" rel="stylesheet" />
+    <link href="css/ionicons.min.css" rel="stylesheet" />
+    <link href="css/jquery.pagepiling.css" rel="stylesheet" />
 
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
     <!-- <link rel="manifest" href="favicon/site.webmanifest"> -->
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45815622-2"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-45815622-2"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-45815622-2');
+      gtag("config", "UA-45815622-2");
     </script>
+  </head>
 
-</head>
-
-<body class="light-mode dark-mode">
+  <body class="light-mode dark-mode">
     <div class="animsition">
-        <div class="wrapper">
-            <header id="header" class="header header-fixed">
-                <div class="container-fluid clearfix">
-                    <div class="brand">
-                        <a href="">
-                            <div class="img-logo"></div>
-                        </a>
-                    </div>
-
-                    <button class="nav-toggle-btn a-nav-toggle">
-                        <span class="nav-toggle-title">Menu</span>
-                        <span class="nav-toggle nav-toggle-sm">
-                            <span class="stick stick-1"></span>
-                            <span class="stick stick-2"></span>
-                            <span class="stick stick-3"></span>
-                        </span>
-                    </button>
-
-                    <div class="header-content">
-                        <div class="header-contacts">
-                            <div class="header-contact-item">
-                                <a href="mailto:novanop.studio@gmail.com" class="mail-link">novanop.studio@gmail.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hide-menu a-nav-toggle"></div>
-
-                <div class="menu">
-                    <div class="menu-main" id="accordion">
-                        <ul>
-                            <li><a data-text="Home" href="#Home">Home</a>
-                            </li>
-                            <li><a data-text="Skill Sets" href="#Skills">Skill Sets</a>
-                            </li>
-                            <li><a data-text="Portofolio" href="#Projects">Portofolio</a>
-                            </li>
-                            <li><a href="contact.html" class="animsition-link" data-animsition-out-class="fade-out"
-                                    data-text="Contact">Contact</a></li>
-                        </ul>
-                    </div> <!-- End of main menu div -->
-
-                    <div class="menu-footer">
-                        <ul class="social social-rounded">
-                            <li><a href="https://www.linkedin.com/in/nova-nurhamdani/" target="_blank"><i
-                                        class="socicon-linkedin"></i></a></li>
-                            <li><a href="https://github.com/novanopstudio" target="_blank"><i
-                                        class="socicon-github"></i></a></li>
-                        </ul>
-                        <div class="menu-copyright">&copy; 2020 <strong>NOVANOP</strong>. All Rights Reserved.</div>
-                    </div> <!-- End of menu footer div -->
-
-                </div> <!-- End of menu div -->
-
-            </header> <!-- End of Header -->
-
-            <ul class="social social-fixed">
-                <li><a href="https://www.linkedin.com/in/nova-nurhamdani/" target="_blank"><i
-                            class="socicon-linkedin"></i></a>
-                <li><a href="https://github.com/novanopstudio" target="_blank"><i class="socicon-github"></i></a></li>
-            </ul>
-
-            <div class="horizontal-nav">
-                <div class="container">
-                    <ul id="menu">
-                        <li data-menuanchor="Home"></li>
-                        <li data-menuanchor="Skills"></li>
-                        <li data-menuanchor="Projects"></li>
-                        <li data-menuanchor="Contacts"></li>
-                    </ul>
-                </div>
-                <div class="horizontal-controls">
-                    <button class="a-pp-prev">prev</button>
-                    <span class="divider">|</span>
-                    <button class="a-pp-next">next</button>
-                </div>
+      <div class="wrapper">
+        <header id="header" class="header header-fixed">
+          <div class="container-fluid clearfix">
+            <div class="brand">
+              <a href="">
+                <div class="img-logo"></div>
+              </a>
             </div>
 
-            <div class="home-horizontal a-horizontal full-height">
+            <button class="nav-toggle-btn a-nav-toggle">
+              <span class="nav-toggle-title">Menu</span>
+              <span class="nav-toggle nav-toggle-sm">
+                <span class="stick stick-1"></span>
+                <span class="stick stick-2"></span>
+                <span class="stick stick-3"></span>
+              </span>
+            </button>
 
-                <div class="section pp-scrollable slide slide1 slide-dark">
-                    <div class="slide-container">
-                        <div class="slide-bg">
-                            <div class="inside"></div>
-                        </div>
-                        <div class="slide-video-container slide-container">
-                            <div class="container">
-                                <div class="row slide-content">
-                                    <div class="col-sm-4">
-                                        <div class="slide-num num">01</div>
-                                        <!-- <img src="./img/no-avatar.png" alt="nova" class="novanop wow fadeInRight" data-wow-duration="1.2s"> -->
-                                        <h1 class="slide-title font-teko wow fadeInRight" data-wow-duration="1.2s"><span
-                                                class="text-primary">Hi,</span><br /> I AM <span
-                                                class="text-primary">NOVA</span></h1>
-                                        <div class="slide-body wow fadeInRight" data-wow-delay=".2s"
-                                            data-wow-duration="1.2s">
-                                            <h3 class="slide-title-sub font-teko">FRONT END DEVELOPER</h3>
-                                            <a class="btn btn-primary mr-4 animsition-link"
-                                                href="work-listing.html">Portofolio</a>
-                                            <a href="document/CV Nova 2022.pdf" download target="_blank"
-                                                class="horizontal-more-total">Download CV</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
+            <div class="header-content">
+              <div class="header-contacts">
+                <div class="header-contact-item">
+                  <a href="mailto:novanop.studio@gmail.com" class="mail-link"
+                    >novanop.studio@gmail.com</a
+                  >
                 </div>
+              </div>
+            </div>
+          </div>
 
-                <!-- End of Slide 1 -->
+          <div class="hide-menu a-nav-toggle"></div>
 
-                <!-- Start of Slide 2 -->
+          <div class="menu">
+            <div class="menu-main" id="accordion">
+              <ul>
+                <li><a data-text="Home" href="#Home">Home</a></li>
+                <li><a data-text="Skill Sets" href="#Skills">Skill Sets</a></li>
+                <li>
+                  <a data-text="Portofolio" href="#Projects">Portofolio</a>
+                </li>
+                <li>
+                  <a
+                    href="contact.html"
+                    class="animsition-link"
+                    data-animsition-out-class="fade-out"
+                    data-text="Contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- End of main menu div -->
 
-                <div class="section pp-scrollable slide slide2">
-                    <div class="slide-container">
-                        <div class="container">
-                            <div class="slide-num num">02</div>
-                            <div class="media-title">
-                                <div class="align-self-center">
-                                    <h2 class="slide-title font-teko mb-0">Skill Sets</h2>
-                                </div>
-                                <div class="align-self-center mb-2">
-                                </div>
-                            </div>
-                            <div class="slide-body">
-                                <div class="row horizontal-service-list">
-                                    <div class="col-lg-4">
-                                        <div class="horizontal-service-item">
-                                            <div class="num">1.</div>
-                                            <div class="horizontal-service-item-photo"><img
-                                                    src="./img/horizontal-pic3.png" alt="UI/UX Design"
-                                                    class="photo-position" /></div>
-                                            <div class="horizontal-service-item-title">UI/UX Design</div>
-                                            <div class="horizontal-service-item-descr text-grey">
-                                                The tools I use are Adobe XD, Photoshop, Illustrator and Figma for UI
-                                                Design or other Graphic Design
-                                                <div class="iconset iconset-figma"></div>
-                                                <div class="iconset iconset-xd"></div>
-                                                <div class="iconset iconset-psd"></div>
-                                                <div class="iconset iconset-ai"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="horizontal-service-item">
-                                            <div class="num">2.</div>
-                                            <div class="horizontal-service-item-photo"><img
-                                                    src="./img/horizontal-pic2.png" alt="Logo Design Branding"
-                                                    class="photo-position" /></div>
-                                            <div class="horizontal-service-item-title">Website Development</div>
-                                            <div class="horizontal-service-item-descr text-grey">
-                                                Develop website using HTML, CSS, Javascript. Using React(FrontEnd) and
-                                                NodeJs(BackEnd)
-                                                <div class="iconset iconset-html"></div>
-                                                <div class="iconset iconset-css"></div>
-                                                <div class="iconset iconset-javascript"></div>
-                                                <div class="iconset iconset-react"></div>
-                                                <div class="iconset iconset-node"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="horizontal-service-item">
-                                            <div class="num">3.</div>
-                                            <div class="horizontal-service-item-photo photo3"><img
-                                                    src="./img/horizontal-pic4.png" alt="" class="photo-position" />
-                                            </div>
-                                            <div class="horizontal-service-item-title">Other Skills</div>
-                                            <div class="horizontal-service-item-descr text-grey">
-                                                Another skills in some framework and cms platform. And also
-                                                known about Git,
-                                                Web Deployment, etc
-                                                <div class="iconset iconset-next"></div>
-                                                <div class="iconset iconset-sass"></div>
-                                                <div class="iconset iconset-github"></div>
-                                                <div class="iconset iconset-redux"></div>
-                                                <div class="iconset iconset-wordpress"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="menu-footer">
+              <ul class="social social-rounded">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/nova-nurhamdani/"
+                    target="_blank"
+                    ><i class="socicon-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/novanopstudio" target="_blank"
+                    ><i class="socicon-github"></i
+                  ></a>
+                </li>
+              </ul>
+              <div class="menu-copyright">
+                &copy; 2023 <strong>Novanop</strong>. All Rights Reserved.
+              </div>
+            </div>
+            <!-- End of menu footer div -->
+          </div>
+          <!-- End of menu div -->
+        </header>
+        <!-- End of Header -->
+
+        <ul class="social social-fixed">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nova-nurhamdani/"
+              target="_blank"
+              ><i class="socicon-linkedin"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="https://github.com/novanopstudio" target="_blank"
+              ><i class="socicon-github"></i
+            ></a>
+          </li>
+        </ul>
+
+        <div class="horizontal-nav">
+          <div class="container">
+            <ul id="menu">
+              <li data-menuanchor="Home"></li>
+              <li data-menuanchor="Skills"></li>
+              <li data-menuanchor="Projects"></li>
+              <li data-menuanchor="Contacts"></li>
+            </ul>
+          </div>
+          <div class="horizontal-controls">
+            <button class="a-pp-prev">prev</button>
+            <span class="divider">|</span>
+            <button class="a-pp-next">next</button>
+          </div>
+        </div>
+
+        <div class="home-horizontal a-horizontal full-height">
+          <div class="section pp-scrollable slide slide1 slide-dark">
+            <div class="slide-container">
+              <div class="slide-bg">
+                <div class="inside"></div>
+              </div>
+              <div class="slide-video-container slide-container">
+                <div class="container">
+                  <div class="row slide-content">
+                    <div class="col-sm-4">
+                      <div class="slide-num num">01</div>
+                      <!-- <img src="./img/no-avatar.png" alt="nova" class="novanop wow fadeInRight" data-wow-duration="1.2s"> -->
+                      <h1
+                        class="slide-title font-teko wow fadeInRight"
+                        data-wow-duration="1.2s"
+                      >
+                        <span class="text-primary">Hi,</span><br />
+                        I AM <span class="text-primary">NOVA</span>
+                      </h1>
+                      <div
+                        class="slide-body wow fadeInRight"
+                        data-wow-delay=".2s"
+                        data-wow-duration="1.2s"
+                      >
+                        <h3 class="slide-title-sub font-teko">
+                          FRONT END DEVELOPER
+                        </h3>
+                        <a
+                          class="btn btn-primary mr-4 animsition-link"
+                          href="work-listing.html"
+                          >Portofolio</a
+                        >
+                        <a
+                          href="document/CV Nova 2022.pdf"
+                          download
+                          target="_blank"
+                          class="horizontal-more-total"
+                          >Download CV</a
+                        >
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
 
-                <!-- End of Slide 2 -->
+          <!-- End of Slide 1 -->
 
-                <!-- Start of Slide 3 -->
+          <!-- Start of Slide 2 -->
 
-                <div class="section pp-scrollable slide slide3 slide-dark">
-                    <div class="slide-container">
-                        <div class="slide-bg">
-                            <div class="inside"></div>
-                            <img class="cendekia" src="img/cendecomm.png" alt="">
+          <div class="section pp-scrollable slide slide2">
+            <div class="slide-container">
+              <div class="container">
+                <div class="slide-num num">02</div>
+                <div class="media-title">
+                  <div class="align-self-center">
+                    <h2 class="slide-title font-teko mb-0">Skill Sets</h2>
+                  </div>
+                  <div class="align-self-center mb-2"></div>
+                </div>
+                <div class="slide-body">
+                  <div class="row horizontal-service-list">
+                    <div class="col-lg-4">
+                      <div class="horizontal-service-item">
+                        <div class="num">1.</div>
+                        <div class="horizontal-service-item-photo">
+                          <img
+                            src="./img/horizontal-pic1.png"
+                            alt="UI/UX Design"
+                            class="photo-position"
+                          />
                         </div>
-                        <div class="container">
-                            <div class="row slide-content">
-                                <div class="col-sm-4">
-                                    <div class="slide-num num">03</div>
-                                    <div class="slide-title">
-                                        <div class="horizontal-top-title">Featured project</div>
-                                        <h2 class="font-teko h1">Cendekia<br /> Ecommerce Site</h2>
-                                    </div>
-                                    <div class="slide-body">
-                                        <h3 class="slide-title-sub font-teko">Web Development</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="btn btn-primary mr-4" href="work-listing.html">See All project <i
-                                    class="icon ion-ios-arrow-right animsition-link"></i></a>
+                        <div class="horizontal-service-item-title">
+                          Web Development
                         </div>
+                        <div class="horizontal-service-item-descr text-grey">
+                          Transforming ideas into captivating web experiences
+                          using HTML, CSS, and JavaScript and also using JS
+                          Framework React JS and Next JS. Need WordPress Site?
+                          Let's craft your online masterpiece!
+                          <div class="icon-container">
+                            <div class="iconset iconset-html"></div>
+                            <div class="iconset iconset-css"></div>
+                            <div class="iconset iconset-javascript"></div>
+                            <div class="iconset iconset-react"></div>
+                            <div class="iconset iconset-next"></div>
+                            <div class="iconset iconset-wordpress"></div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
-
-                <!-- End of Slide 3 -->
-
-                <!-- Start of Slide 4 -->
-
-                <div class="section pp-scrollable slide slide4">
-                    <div class="slide-container">
-                        <div class="container">
-                            <div class="row slide-content">
-                                <div class="col-sm-6">
-                                    <div class="slide-num num">04</div>
-                                    <h2 class="slide-title font-teko h1">Bogor, INDONESIA</h2>
-                                    <div class="slide-body">
-                                        <div class="slide-contact-mail"><a href="skype:novanurhamdani?chat"
-                                                class="mail-link"><i class="socicon-skype"></i> : Start Chat on
-                                                Skype</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="btn btn-primary mr-4 animsition-link" data-animsition-out-class="fade-out"
-                                href="contact.html">Contact <i class="icon ion-ios-arrow-right"></i></a>
+                    <div class="col-lg-4">
+                      <div class="horizontal-service-item">
+                        <div class="num">2.</div>
+                        <div class="horizontal-service-item-photo">
+                          <img
+                            src="./img/horizontal-pic2.png"
+                            alt="Logo Design Branding"
+                            class="photo-position"
+                          />
                         </div>
+                        <div class="horizontal-service-item-title">
+                          Mobile Apps Development
+                        </div>
+                        <div class="horizontal-service-item-descr text-grey">
+                          Elevate your brand with my mobile app expertise in
+                          React Native. I turn your ideas into stunning,
+                          user-friendly apps for Android and iOS. Let's make
+                          your app dreams a reality!
+                          <div class="icon-container">
+                            <div class="iconset iconset-react"></div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    <div class="col-lg-4">
+                      <div class="horizontal-service-item">
+                        <div class="num">3.</div>
+                        <div class="horizontal-service-item-photo photo3">
+                          <img
+                            src="./img/horizontal-pic3.png"
+                            alt=""
+                            class="photo-position"
+                          />
+                        </div>
+                        <div class="horizontal-service-item-title">
+                          Other Skills
+                        </div>
+                        <div class="horizontal-service-item-descr text-grey">
+                          Beyond my core skills, with a knack for UI design on
+                          Figma, I'm your all-in-one solution for creating a
+                          standout digital presence. Let's work together to
+                          exceed your goals!
+                          <div class="icon-container">
+                            <div class="iconset iconset-figma"></div>
+                            <div class="iconset iconset-github"></div>
+                            <div class="iconset iconset-tailwind"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
 
-                <!-- End of Slide 4 -->
+          <!-- End of Slide 2 -->
 
-            </div> <!-- end home horizontal -->
+          <!-- Start of Slide 3 -->
 
-        </div> <!-- end div wrapper -->
-    </div> <!-- end div animation -->
+          <div class="section pp-scrollable slide slide3 slide-dark">
+            <div class="slide-container">
+              <div class="slide-bg">
+                <div class="inside"></div>
+                <img class="cendekia" src="img/cendecomm.png" alt="" />
+              </div>
+              <div class="container">
+                <div class="row slide-content">
+                  <div class="col-sm-4">
+                    <div class="slide-num num">03</div>
+                    <div class="slide-title">
+                      <div class="horizontal-top-title">Featured project</div>
+                      <h2 class="font-teko h1">
+                        Cendekia<br />
+                        Ecommerce Site
+                      </h2>
+                    </div>
+                    <div class="slide-body">
+                      <h3 class="slide-title-sub font-teko">Web Development</h3>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn btn-primary mr-4" href="work-listing.html"
+                  >See All project
+                  <i class="icon ion-ios-arrow-right animsition-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- End of Slide 3 -->
+
+          <!-- Start of Slide 4 -->
+
+          <div class="section pp-scrollable slide slide4">
+            <div class="slide-container">
+              <div class="container">
+                <div class="row slide-content">
+                  <div class="col-sm-6">
+                    <div class="slide-num num">04</div>
+                    <h2 class="slide-title font-teko h1">Bogor, INDONESIA</h2>
+                    <div class="slide-body">
+                      <div class="slide-contact-mail">
+                        <a href="skype:novanurhamdani?chat" class="mail-link"
+                          ><i class="socicon-skype"></i> : Start Chat on
+                          Skype</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="btn btn-primary mr-4 animsition-link"
+                  data-animsition-out-class="fade-out"
+                  href="contact.html"
+                  >Contact <i class="icon ion-ios-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- End of Slide 4 -->
+        </div>
+        <!-- end home horizontal -->
+      </div>
+      <!-- end div wrapper -->
+    </div>
+    <!-- end div animation -->
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery.min.js"><\/script>');
+    </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/animsition.min.js"></script>
     <script src="js/wow.min.js"></script>
@@ -300,36 +404,32 @@
 
     <!-- Pagepiling Script -->
     <script>
-        $(document).ready(function () {
-            $('.a-horizontal').pagepiling({
-                scrollingSpeed: 280,
-                menu: '#menu',
-                direction: 'horizontal',
-                loopTop: true,
-                loopBottom: true,
-                anchors: ['Home', 'Skills', 'Projects', 'Contacts'],
-                navigation: false,
-                afterLoad: function (anchorLink, index) {
-                    if (index == 1 || index == 3) { // Section with dark bacgkrounds
-                        $('body').addClass('dark-mode');
-                    }
-                    else {
-                        $('body').removeClass('dark-mode');
-                    }
-                }
-            });
-
-            $('.a-pp-prev').on('click', function () {
-                $.fn.pagepiling.moveSectionUp();
-            });
-            $('.a-pp-next').on('click', function () {
-                $.fn.pagepiling.moveSectionDown();
-            });
+      $(document).ready(function () {
+        $(".a-horizontal").pagepiling({
+          scrollingSpeed: 280,
+          menu: "#menu",
+          direction: "horizontal",
+          loopTop: true,
+          loopBottom: true,
+          anchors: ["Home", "Skills", "Projects", "Contacts"],
+          navigation: false,
+          afterLoad: function (anchorLink, index) {
+            if (index == 1 || index == 3) {
+              // Section with dark bacgkrounds
+              $("body").addClass("dark-mode");
+            } else {
+              $("body").removeClass("dark-mode");
+            }
+          },
         });
+
+        $(".a-pp-prev").on("click", function () {
+          $.fn.pagepiling.moveSectionUp();
+        });
+        $(".a-pp-next").on("click", function () {
+          $.fn.pagepiling.moveSectionDown();
+        });
+      });
     </script>
-
-
-
-</body>
-
+  </body>
 </html>
